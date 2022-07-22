@@ -10,9 +10,8 @@ const closeMenu = () => {
     document.querySelector('aside').className = '';
 }
 
-window.onload = function () {
-    document.getElementById('#menuBtn').onClick = e => {
-        e.preventDefault();
-        openMenu();
-    }
+document.getElementById('#menuBtn').onClick = e => {
+    e.preventDefault();
+    openMenu();
 }
+
