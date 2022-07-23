@@ -141,6 +141,7 @@ aside button.close {
     padding: 10px;
     font-weight: 100;
     font-family: sans-serif;
+    cursor: pointer;
 }
 
 .backdrop {
@@ -149,4 +150,8 @@ aside button.close {
     inset: 0;
     background: rgba(0, 0, 0, .28);
     backdrop-filter: blur(4px);
+}
+
+.backdrop.active {
+    display: block;
 }
